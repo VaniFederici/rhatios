@@ -239,7 +239,6 @@ footer ul li {
 .institucional__text h1 {
   color: #95c23d;
   font-size: 3rem;
-  font-weight: bold;
 }
 .institucional__text h3 {
   color: #28367b;
@@ -538,20 +537,17 @@ footer ul li {
 .service__text h1 {
   font-size: 6rem;
   color: #95c23d;
-  font-weight: bold;
 }
 .service__text h4 {
-  color: #d2d2d2;
+  color: white;
   text-align: start;
   margin-left: 40px;
   font-size: 2rem;
-  font-weight: bold;
 }
 .service__text h2 {
   color: #1d71b8;
   margin-left: 30px;
   font-size: 4em;
-  font-weight: bold;
 }
 
 /* service description*/
@@ -628,8 +624,7 @@ footer ul li {
   margin-top: 20px;
 }
 .description_b {
-  align-self: center;
-  margin-top: 10px;
+  margin: 10px 50px;
   padding: 5px;
   color: #28367b;
   font-size: 18px;
@@ -650,17 +645,18 @@ footer ul li {
 .brochure__text {
   display: flex;
   align-items: center;
-  margin-left: 68px;
-  justify-content: space-between;
 }
 
 .brochure p {
   color: #28367b;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .brochure span {
   color: #dadada;
   font-size: 3rem;
+}
+.btn-ss {
+  margin-left: 20px;
 }
 
 .btn-ss:hover {
@@ -671,4 +667,29 @@ footer ul li {
 }
 .brochure img {
   width: 80px;
+}
+
+/* oportunidades laborales*/
+
+.opportunities__main {
+  height: 500px;
+}
+.opportunities__main img {
+  width: 100%;
+  position: absolute;
+}
+
+.opportunities__text {
+  position: absolute;
+  top: 180px;
+  margin-left: 60px;
+}
+
+.opportunities__text h1 {
+  font-size: 5rem;
+  color: #95c23d;
+}
+.opportunities__text h2 {
+  color: #28367b;
+  font-size: 3rem;
 }
