@@ -116,6 +116,10 @@ footer ul li {
 .net i:hover {
   color: #95c23d;
 }
+main {
+  overflow: hidden;
+}
+
 /*index*/
 
 /*carousell*/

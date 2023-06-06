@@ -76,70 +76,63 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="index__main--section">
-        <div
-          id="carouselExampleRide"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active item-1">
-              <div class="carousel-caption d-none d-md-block">
-                <div class="carousel-caption--leyend">
-                  <h5 class="somos__title"># Somos Rhatios</h5>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item item-2">
-              <div class="carousel-caption d-none d-md-block">
-                <div class="carousel-caption--leyend">
-                  <img
-                    src="./images/rathios_isotipo_celeste.png"
-                    alt="isotipo "
-                  />
-                  <h5>Conocé nuestros servicios</h5>
-                </div>
-                <a href="./servicios.html"
-                  ><button class="carousell__button">Ver más</button></a
-                >
-              </div>
-            </div>
-            <div class="carousel-item item-3">
-              <div class="carousel-caption d-none d-md-block">
-                <div class="carousel-caption--leyend">
-                  <img
-                    src="./images/rathios_isotipo_celeste.png"
-                    alt="isotipo"
-                  />
-                  <h5>Encontrá el trabajo que buscabas</h5>
-                </div>
-                <a href="./oportunidades.html"
-                  ><button class="carousell__button">Ver más</button></a
-                >
+    <section class="index__main--section">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active item-1">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption--leyend">
+                <h5 class="somos__title"># Somos Rhatios</h5>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleRide"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleRide"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item item-2">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption--leyend">
+                <img
+                  src="./images/rathios_isotipo_celeste.png"
+                  alt="isotipo "
+                />
+                <h5>Conocé nuestros servicios</h5>
+              </div>
+              <a href="./servicios.html"
+                ><button class="carousell__button">Ver más</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item item-3">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption--leyend">
+                <img src="./images/rathios_isotipo_celeste.png" alt="isotipo" />
+                <h5>Encontrá el trabajo que buscabas</h5>
+              </div>
+              <a href="./oportunidades.html"
+                ><button class="carousell__button">Ver más</button></a
+              >
+            </div>
+          </div>
         </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <main>
       <section class="institucional">
         <div
           data-aos="fade-right"
@@ -164,7 +157,11 @@
         <div class="proposito__logo">
           <img src="./images/rathios_isotipo_azul.png" />
         </div>
-        <div class="proposito__text">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="proposito__text"
+        >
           <h2># Nuestro Propósito</h2>
           <h3>Impulsar el crecimiento de las organizaciones</h3>
           <p>
@@ -264,7 +261,7 @@
         </div>
       </section>
       <section class="empresas-confian">
-        <div class="empresas">
+        <div data-aos="fade-left" data-aos-duration="2000" class="empresas">
           <h3>Algunas de las empresas que confían en Rhatios:</h3>
           <div class="empresas__logos">
             <img src="./images/logoempresas-8.png" />
