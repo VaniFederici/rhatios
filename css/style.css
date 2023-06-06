@@ -337,6 +337,7 @@ main {
   color: #95c23d;
   margin-right: 40px;
   margin-bottom: 0px;
+  font-size: 3rem;
 }
 .tips__container {
   display: flex;
@@ -436,7 +437,7 @@ main {
 }
 
 .empresas h3 {
-  color: white;
+  color: #94c23d;
   font-size: 21px;
   text-align: center;
 }
