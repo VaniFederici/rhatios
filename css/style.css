@@ -983,7 +983,7 @@ textarea {
   .institucional__text {
     width: 100%;
     margin-bottom: 20px;
-    border-radius: 100px;
+    border-radius: 70px;
   }
   .institucional__text h1 {
     font-size: 1rem;
@@ -1000,7 +1000,7 @@ textarea {
     justify-content: center;
   }
   .proposito__text {
-    border-radius: 100px;
+    border-radius: 60px;
     padding: 30px 60px;
   }
   .proposito__logo img {
@@ -1040,7 +1040,7 @@ textarea {
   }
   .empresas {
     width: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
     margin: 0px 10px;
   }
   .empresas h3 {
@@ -1065,7 +1065,7 @@ textarea {
     justify-content: center;
   }
   .facts-container {
-    border-radius: 120px;
+    border-radius: 50px;
     width: 100%;
     margin: 0px;
   }
@@ -1085,7 +1085,8 @@ textarea {
   /*servicios*/
   .service__header {
     margin: 0px;
-    width: 95%;
+    width: 100%;
+    border-radius: 50px;
   }
   .service__header img {
     width: 50px;
@@ -1129,7 +1130,7 @@ textarea {
   }
 
   .brochure {
-    border-radius: 100px;
+    border-radius: 60px;
     margin-left: 0px;
     margin-bottom: 40px;
   }
@@ -1172,7 +1173,7 @@ textarea {
   }
   .opportunities__legend--text {
     width: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
   }
   .opportunities__legend img {
     width: 100%;
