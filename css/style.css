@@ -774,7 +774,7 @@ main {
 
 .somos__header {
   text-align: center;
-  background: #1d71b8;
+  background: #94c23d;
   padding: 15px 0px;
   width: 60%;
   border-radius: 0px 120px 120px 0px;
@@ -788,7 +788,7 @@ main {
 }
 
 .somos__header h1 {
-  color: #94c23d;
+  color: #28367b;
   font-size: 4rem;
 }
 .somos__paragraph {
@@ -822,7 +822,8 @@ main {
 }
 .somos__slogan {
   color: #28367b;
-  margin: 20px 40px;
+  margin: 10px 50px;
+  padding: 5px 250px;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -1044,6 +1045,7 @@ textarea {
     grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     gap: 5px;
+    margin: 10px 0px;
   }
   .tips__mobile--container span {
     font-size: 1.2rem;
@@ -1055,11 +1057,12 @@ textarea {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    align-self: center;
   }
   .tips__mobile i {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #94c23d;
+    color: #1d71b8;
   }
   .tips__mobile h4 {
     color: #28367b;
@@ -1088,13 +1091,13 @@ textarea {
   .counter {
     font-size: 1.5rem;
   }
-  .fact__counter-container {
+  .facts__counter-container {
     display: flex;
     justify-content: center;
   }
   .facts-container {
     border-radius: 50px;
-    width: 97%;
+    width: 95%;
     margin: 0px;
   }
   .legend {
@@ -1257,6 +1260,9 @@ textarea {
     font-size: 3.7rem;
     padding: 5px;
     border-radius: 100px;
+  }
+  .somos__slogan {
+    padding: 0px;
   }
   .somos__slogan p {
     font-size: 1.3rem;
