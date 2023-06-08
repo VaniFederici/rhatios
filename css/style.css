@@ -983,7 +983,7 @@ textarea {
     flex-direction: column;
   }
   .institucional__text {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
     border-radius: 70px;
   }
@@ -1045,6 +1045,10 @@ textarea {
     justify-items: center;
     gap: 5px;
   }
+  .tips__mobile--container span {
+    font-size: 1.2rem;
+    color: #94c23d;
+  }
   .tips__mobile {
     display: flex;
     flex-direction: column;
@@ -1090,7 +1094,7 @@ textarea {
   }
   .facts-container {
     border-radius: 50px;
-    width: 100%;
+    width: 97%;
     margin: 0px;
   }
   .legend {
@@ -1242,5 +1246,19 @@ textarea {
 
   .contact-main {
     background-position: inherit;
+  }
+  /*somos rhatios*/
+  .somos__header {
+    width: 100%;
+    border-radius: 60px;
+  }
+  .somos__paragraph h2 {
+    width: 100%;
+    font-size: 3.7rem;
+    padding: 5px;
+    border-radius: 100px;
+  }
+  .somos__slogan p {
+    font-size: 1.3rem;
   }
 }
