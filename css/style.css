@@ -523,7 +523,7 @@ main {
   border-radius: 5px;
 }
 .legend p {
-  padding: 0px 25px;
+  padding: 20px 50px;
   color: #28367b;
   font-size: 1.4rem;
   text-align: justify;
@@ -570,7 +570,7 @@ main {
 
 /* service description*/
 .service__main {
-  margin: 0px 50px;
+  margin: 50px;
 }
 
 .service__first-content {
@@ -879,6 +879,7 @@ main {
   padding: 0px;
   font-size: 1rem;
   margin: 0px;
+  line-height: 18px;
 }
 .somos__slogan--img span {
   margin: 0px 10px;
@@ -1069,6 +1070,43 @@ textarea {
   border-radius: 15px;
 }
 
+/* seleccion de personal*/
+.seleccion__title h1 {
+  background-color: #28367b;
+  color: #94c23d;
+  width: 75%;
+  padding: 25px;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.service__content--description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.descript {
+  align-items: self-start;
+}
+.descript h3 {
+  background: #1d71b8;
+  font-weight: 200;
+  text-align: start;
+}
+.contratar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contratar h2 {
+  color: #28367b;
+  font-size: 2rem;
+}
+.contratar span {
+  font-size: 3rem;
+  color: #94c23d;
+}
 /*media queries*/
 @media only screen and (min-width: 360px) and (max-width: 600px) {
   /* estilos generales*/
