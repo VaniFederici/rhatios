@@ -164,6 +164,9 @@ main {
   background: #28367b;
   padding: 7px 20px;
 }
+.principal h5 {
+  font-size: 3rem;
+}
 .somos__title {
   font-size: 4rem !important;
   color: #95c23d;
@@ -182,7 +185,7 @@ main {
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  padding: 5px 8px;
+  padding: 5px 12px;
   border: 3px solid #95c23d;
   border-radius: 50px;
   position: relative;
@@ -251,7 +254,7 @@ main {
 }
 .institucional__text span {
   color: #94c23d;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .institucional__text h3 {
   color: rgb(40, 54, 123);
@@ -368,17 +371,12 @@ main {
   font-weight: 900;
   color: #28367b;
   overflow: hidden;
-  border: 2px solid #95c23d;
+  border: 1px solid #95c23d;
 }
 
 .card:hover {
-  border-radius: 15px;
   cursor: pointer;
   background: #95c23d;
-  color: #28367b;
-  font-size: 23px;
-  text-align: center;
-  border-radius: 50px;
 }
 
 .first-content {
@@ -410,7 +408,9 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  transition: ease all 0.9s;
+  text-align: center;
+  transition: ease all 0.4s;
+  font-size: 20px;
 }
 .second-content span {
   padding: 0px 7px;
@@ -419,9 +419,6 @@ main {
 .card:hover .second-content {
   opacity: 1;
   height: 100%;
-  font-size: 20px;
-  padding: 0px 7px;
-  text-align: center;
 }
 .tips__mobile--container {
   display: none;
@@ -452,6 +449,16 @@ main {
   width: 130px;
   margin: 0px 15px;
 }
+.facts_title {
+  margin-left: 35px;
+}
+.facts_title span {
+  color: #94c23d;
+  font-size: 3rem;
+}
+.facts_title h3 {
+  color: #28367b;
+}
 
 .facts__counter-container {
   background-color: white;
@@ -462,7 +469,7 @@ main {
   border-radius: 0px 75px 75px 0px;
 }
 .facts {
-  padding: 10px 0px;
+  margin-bottom: 30px;
 }
 
 .counter-box {
@@ -513,12 +520,10 @@ main {
 }
 
 .legend img {
-  width: 600px;
-  height: 300px;
   border-radius: 5px;
 }
 .legend p {
-  padding: 0px 35px;
+  padding: 0px 25px;
   color: #28367b;
   font-size: 1.4rem;
   text-align: justify;
@@ -586,6 +591,7 @@ main {
 .service__card--container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 40px;
 }
 .service__card--container img {
@@ -621,8 +627,8 @@ main {
   color: #28367b;
 }
 .second h3 {
-  background-color: #95c23d;
-  color: #28367b;
+  background-color: #1d71b8;
+  color: #94c23d;
   padding: 15px;
   border-radius: 0px 50px 50px 0px;
   font-weight: bold;
@@ -646,7 +652,7 @@ main {
 .brochure {
   background-color: #1d71b8;
   background-image: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-left: 50px;
   border-radius: 100px 0px 0px 100px;
   display: flex;
@@ -661,12 +667,12 @@ main {
 }
 
 .brochure p {
-  color: #28367b;
+  color: white;
   font-size: 1.5rem;
   text-align: center;
 }
 .brochure span {
-  color: #dadada;
+  color: #94c23d;
   font-size: 3rem;
 }
 .btn-ss {
@@ -710,19 +716,19 @@ main {
 .opportunities__legend {
   margin: 30px 0px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 .opportunities__legend img {
   border-radius: 5px;
-  margin-left: 15px;
+  margin-right: 35px;
 }
 .opportunities__legend--text {
-  width: 58%;
+  width: 55%;
   background-color: #1d71b8;
   color: white;
   padding: 30px 20px;
-  border-radius: 100px 0px 0px 100px;
+  border-radius: 0px 100px 100px 0px;
   text-align: center;
 }
 .legend-op {
@@ -731,9 +737,12 @@ main {
 }
 .queremos {
   background-color: #28367b;
-  border-radius: 0px 100px 100px 0px;
-  width: 85%;
+  border-radius: 100px 0px 0px 100px;
+  width: 89%;
   margin-bottom: 30px;
+}
+.queremos h4 {
+  padding: 10px;
 }
 .cv {
   display: flex;
@@ -742,43 +751,65 @@ main {
 }
 .cv img {
   width: 120px;
-  margin: 0px 50px 35px 0px;
+  margin: 0px 40px 48px 40px;
 }
 .aplica {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 .aplica img {
   border-radius: 5px;
-  margin-right: 15px;
+  margin-left: 35px;
 }
 .discov {
-  padding: 74px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .discov-1 {
   color: #95c23d;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .discov-2 {
   color: #28367b;
+  font-size: 2.5rem;
 }
 .encontra {
   margin-left: 5px;
   margin-top: 10px;
 }
 /* somos rhatios*/
+.somos__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.somos__legend {
+  display: flex;
+  align-items: center;
+}
+.somos__legend img {
+  width: 450px;
+}
+.somos__legend span {
+  color: #28367b;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
 
 .somos__header {
   text-align: center;
   background: #94c23d;
-  padding: 15px 0px;
-  width: 60%;
+  padding: 30px 0px;
+  width: 45%;
   border-radius: 0px 120px 120px 0px;
-  margin: 0px;
+  margin: 5px 0px;
   color: white;
   font-size: 1.2rem;
 }
@@ -800,37 +831,120 @@ main {
   font-size: 4rem;
   text-align: center;
   background: #28367b;
-  width: 70%;
-  padding: 15px 40px;
+  width: 60%;
+  padding: 10px 40px;
   border-radius: 100px 0px 0px 100px;
   align-self: flex-end;
   color: #95c23d;
   font-size: 4rem;
   text-align: center;
+  margin: 5px 0px;
 }
 
-.somos__parallax {
-  background-image: url(../images/somos-parrallax-prueba.png);
+.somos {
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  object-fit: cover;
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
+}
+.equipoa {
+  background-image: url(../images/equipo-1.png);
+}
+.equipob {
+  background-image: url(../images/equipo-3.png);
+}
+.equipoc {
+  background-image: url(../images/equipo-4.png);
 }
 .somos__slogan {
   color: #28367b;
-  margin: 10px 50px;
-  padding: 5px 250px;
+  margin: 0px 50px;
+  padding: 30px;
   font-size: 1.5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 .somos__slogan span {
   color: #94c23d;
   font-size: 3rem;
 }
+.somos__slogan p {
+  padding: 30px 80px;
+}
+.somos__slogan img {
+  border-radius: 10px;
+}
+.somos__slogan--img p {
+  padding: 0px;
+  font-size: 1rem;
+  margin: 0px;
+}
+.somos__slogan--img span {
+  margin: 0px 10px;
+}
+
+.somos__value {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.somos__value img {
+  border-radius: 10px;
+}
+.value__container {
+  display: flex;
+  justify-content: flex-end;
+}
+.value__container--img img {
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.value__container-tips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  justify-items: center;
+  margin: 50px;
+}
+.value {
+  color: #94c23d;
+  font-size: 4rem;
+  background-color: #28367b;
+  padding: 15px 55px;
+  width: 70%;
+  border-radius: 100px 0px 0px 100px;
+}
+.value-tips {
+  font-size: 1.7rem;
+  color: #28367b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #94c23d;
+  width: 85%;
+  border-radius: 50px;
+  padding: 30px;
+  transition: ease-in-out 0.5s;
+}
+.value-tips:hover {
+  background-color: #1d71b8;
+  color: white;
+}
+.value-tips span {
+  font-size: 2.3rem;
+  color: #94c23d;
+}
+.somos__equipo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
 /* contacto*/
 
 .contact-main {
@@ -854,16 +968,21 @@ main {
 
 .contactx {
   color: #28367b;
-  margin: 20px;
+  background-color: #1d71b8;
+  width: 88%;
+  margin: 10px 0px;
+  border-radius: 100px 0px 0px 100px;
 }
 
 .contactx h2 {
   font-size: 2rem;
-  color: #28367b;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 .contactx span {
-  color: #95c23d;
+  color: #94c23d;
   font-size: 4rem;
 }
 
@@ -873,17 +992,18 @@ main {
 .contact__redes--icon {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 .contact__redes--icon i {
-  color: #28367b;
+  color: white;
   font-size: 2.5rem;
   margin: 0px 20px;
 }
 .contact__redes--icon i:hover {
-  color: #1d71b8;
+  color: #94c23d;
 }
 .formu-text {
-  background-color: #1d71b8;
+  background-color: #28367b;
   border-radius: 0px 100px 100px 0px;
   padding: 30px 0px;
 }
@@ -901,7 +1021,7 @@ main {
 
 .text__contact--container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .contact__form {
   display: flex;
@@ -912,10 +1032,8 @@ main {
   align-items: center;
   margin: 20px 20px;
   padding: 15px;
-  border: 1px solid;
   border-radius: 15px;
-  border: 2px solid #28367b;
-  background: #28367b;
+  background-color: #dadada;
 }
 .form__container--div {
   margin: 0px 20px;
@@ -925,7 +1043,7 @@ main {
 }
 label {
   font-size: 1.3rem;
-  color: white;
+  color: #28367b;
 }
 input {
   border-radius: 10px;
@@ -938,6 +1056,7 @@ input {
   margin: 0px 5px;
   transition: ease-in-out 0.5s;
   border-radius: 10px;
+  border: none;
 }
 .zcwf_button:hover {
   background-color: #1d71b8;
@@ -986,14 +1105,14 @@ textarea {
   .institucional__text {
     width: 90%;
     margin-bottom: 20px;
-    border-radius: 70px;
+    border-radius: 15px;
   }
   .institucional__text h1 {
     font-size: 1rem;
-    padding: 0px 70px;
+    padding: 0px 30px;
   }
   .institucional__text span {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .institucional__text p {
     font-size: 1rem;
@@ -1003,8 +1122,9 @@ textarea {
     justify-content: center;
   }
   .proposito__text {
-    border-radius: 60px;
-    padding: 30px 60px;
+    border-radius: 15px;
+    padding: 30px 30px;
+    align-items: center;
   }
   .proposito__logo img {
     display: none;
@@ -1012,14 +1132,16 @@ textarea {
   .proposito__text h2 {
     margin: 0px;
     font-size: 1.5rem;
+    text-align: center;
   }
   .proposito__text h3 {
     font-size: 1rem;
     margin: 0px;
+    text-align: center;
   }
   .proposito__text p {
     margin: 0px;
-    text-align: justify;
+    text-align: center;
   }
   .proposito__logo img {
     margin: 10px;
@@ -1071,7 +1193,7 @@ textarea {
   }
   .empresas {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 15px;
     margin: 0px 10px;
   }
   .empresas h3 {
@@ -1096,7 +1218,7 @@ textarea {
     justify-content: center;
   }
   .facts-container {
-    border-radius: 50px;
+    border-radius: 15px;
     width: 95%;
     margin: 0px;
   }
@@ -1112,6 +1234,7 @@ textarea {
   }
   .legend p {
     font-size: 1rem;
+    padding: 0px;
   }
   /*servicios*/
   .service__header {
@@ -1186,29 +1309,40 @@ textarea {
 
   .opportunities__text {
     padding: 5px;
-    background: rgba(0, 0, 0, 0.1);
-    margin: 0px 20px;
+    background: rgba(40, 54, 123, 0.5);
+    margin: 0px 20px 10px 20px;
     width: 100%;
     border-radius: 20px;
   }
   .opportunities__text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .opportunities__text h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
   .opportunities__legend {
     flex-direction: column-reverse;
+    margin: 30px 10px;
   }
   .opportunities__legend--text {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 15px;
+  }
+  .opportunities__legend--text span {
+    font-size: 2rem;
+  }
+  .opportunities__legend--text h4 {
+    font-size: 1.2rem;
   }
   .opportunities__legend img {
     width: 100%;
     margin-top: 30px;
+    margin-left: 0px;
+  }
+  .queremos {
+    margin: 0px 10px;
   }
   .cv img {
     display: none;
@@ -1219,9 +1353,14 @@ textarea {
   }
   .aplica img {
     width: 100%;
+    margin: 0px 10px;
   }
   .discov {
     align-items: center;
+    padding: 50px;
+  }
+  .discov-1 {
+    font-size: 2rem;
   }
   /*contacto*/
   .contact-main {
