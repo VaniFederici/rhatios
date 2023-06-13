@@ -1158,6 +1158,9 @@ textarea {
     font-size: 1rem;
     text-align: center;
   }
+  .institucional__image img {
+    width: 100%;
+  }
   .proposito {
     justify-content: center;
   }
@@ -1456,6 +1459,17 @@ textarea {
     border-radius: 20px;
   }
   /*somos rhatios*/
+  .equipoa {
+    background-image: url(../images/carousell-mobile-1.png);
+  }
+
+  .equipob {
+    background-image: url(../images/carousell-mobile-2.png);
+  }
+  .equipoc {
+    background-image: url(../images/carousell-mobile-3.png);
+  }
+
   .somos__header {
     width: 100%;
     border-radius: 15px;
