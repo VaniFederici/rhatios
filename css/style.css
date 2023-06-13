@@ -1247,6 +1247,9 @@ textarea {
     margin: 10px;
     width: 90px;
   }
+  .facts_title span {
+    font-size: 2rem;
+  }
   .counter-box {
     padding: 10px;
   }
@@ -1319,12 +1322,25 @@ textarea {
   .service__main {
     margin: 0px;
   }
+
   .service__first-content span {
     font-size: 1.1rem;
   }
-
+  .first {
+    margin: 0px;
+    align-items: center;
+  }
+  .first span {
+    padding: 30px;
+  }
+  .second {
+    align-items: center;
+  }
+  .second span {
+    padding: 30px;
+  }
   .brochure {
-    border-radius: 60px;
+    border-radius: 40px;
     margin-left: 0px;
     margin-bottom: 40px;
   }
@@ -1349,10 +1365,13 @@ textarea {
 
   .opportunities__text {
     padding: 5px;
-    background: rgba(40, 54, 123, 0.5);
+    background: #28367b;
     margin: 0px 20px 10px 20px;
     width: 100%;
     border-radius: 20px;
+  }
+  .opportunities__text h2 {
+    color: white;
   }
   .opportunities__text h1 {
     font-size: 2.5rem;
@@ -1378,8 +1397,10 @@ textarea {
   }
   .opportunities__legend img {
     width: 100%;
-    margin-top: 30px;
-    margin-left: 0px;
+    margin: 20px 0px;
+  }
+  .discov-2 {
+    font-size: 1.5rem;
   }
   .queremos {
     margin: 0px 10px;
@@ -1404,7 +1425,7 @@ textarea {
   }
   /*contacto*/
   .contact-main {
-    align-items: center;
+    display: none;
   }
   .contact__form {
     flex-direction: column;
@@ -1414,6 +1435,7 @@ textarea {
   }
   .form__container {
     flex-direction: column;
+    width: 80%;
   }
   textarea {
     margin-left: 35px;
@@ -1429,10 +1451,20 @@ textarea {
   .contact-main {
     background-position: inherit;
   }
+  .contactx {
+    width: 100%;
+    border-radius: 20px;
+  }
   /*somos rhatios*/
   .somos__header {
     width: 100%;
-    border-radius: 60px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 10px 5px;
+  }
+
+  .somos__header h1 {
+    font-size: 1.5rem;
   }
   .somos__paragraph h2 {
     width: 100%;
@@ -1442,8 +1474,86 @@ textarea {
   }
   .somos__slogan {
     padding: 0px;
+    flex-direction: column-reverse;
   }
   .somos__slogan p {
     font-size: 1.3rem;
+  }
+  .somos__legend span {
+    font-size: 2.5rem;
+  }
+  .somos__container {
+    margin: 20px;
+  }
+
+  .somos__legend img {
+    width: 200px;
+  }
+  .somos__slogan span {
+    font-size: 2rem;
+  }
+  .somos__slogan p {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .somos__slogan {
+    justify-content: center;
+  }
+  .value {
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 20px;
+  }
+  .value-tips {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .value-tips span {
+    font-size: 1rem;
+  }
+  .value-tips h4 {
+    font-size: 1rem;
+  }
+  .somos__equipo {
+    flex-direction: column;
+    margin: 15px;
+  }
+  .value__container--img img {
+    margin: 5px;
+    width: 100%;
+  }
+  .value__container-tips {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 10px;
+    gap: 15px;
+  }
+  /*service description*/
+  .seleccion__title h1 {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .service__content--description {
+    grid-template-columns: 1fr;
+  }
+  .descript h3 {
+    border-radius: 20px;
+  }
+  .contratar {
+    margin: 15px;
+  }
+  .contratar h2 {
+    font-size: 1.1rem;
+  }
+  .contratar span {
+    font-size: 1.5rem;
+  }
+  .service__description-container ul {
+    font-size: 1rem;
+    padding: 5px 30px;
+  }
+  .seleccion__title h1 {
+    font-size: 2rem;
   }
 }
