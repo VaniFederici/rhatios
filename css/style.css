@@ -457,8 +457,8 @@ main {
   text-align: center;
 }
 
-.empresas img {
-  width: 100px;
+.empresas__logos img {
+  width: 8%;
   margin: 0px 15px;
 }
 .facts_title {
@@ -1280,7 +1280,7 @@ textarea {
   }
   .empresas__logos img {
     margin: 10px;
-    width: 8%;
+    width: 15%;
   }
   .empresas-confian h2 {
     margin-left: 0px;
