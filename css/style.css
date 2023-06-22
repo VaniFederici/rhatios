@@ -109,9 +109,10 @@ footer ul li {
   flex-direction: column;
   align-items: center;
 }
-.net i {
+.net a i {
   font-size: 25px;
   margin: 0px 10px;
+  color: white;
 }
 .net i:hover {
   color: #95c23d;
@@ -315,8 +316,7 @@ main {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-  object-fit: cover;
+  background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: end;

@@ -5,7 +5,7 @@ function valida()
 	  if(document.form.nombre.value=='') 
 	  {
 		document.form.nombre.focus();
-		Swal.fire('debe ingresar un nombre')
+		Swal.fire('Debe ingresar un nombre')
 		return false;
 	  } else if (document.form.email.value=='') 
 	  {
