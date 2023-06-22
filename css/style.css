@@ -64,7 +64,7 @@ header {
 }
 
 footer {
-  padding: 75px 0px;
+  padding: 50px 0px;
   background-color: #28367b;
   display: flex;
   justify-content: space-evenly;
@@ -306,6 +306,7 @@ main {
 .proposito__text p {
   color: #dadada;
   margin-left: 50px;
+  font-size: 1.3rem;
 }
 
 .parallax {
@@ -326,7 +327,7 @@ main {
 }
 
 .nuestro__diferencial {
-  margin-top: 40px;
+  margin: 40px 10px;
 }
 
 .diferencial {
@@ -427,11 +428,22 @@ main {
   display: flex;
   justify-content: end;
 }
+.empresas-confian h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  text-align: center;
+}
+.empresas-confian span {
+  color: #94c23d;
+  font-size: 3rem;
+}
 .empresas {
   padding: 30px 50px;
   background-color: #28367b;
-  border-radius: 85px 0px 0px 85px;
-  width: 90%;
+  border-radius: 115px 0px 0px 115px;
+  width: 95%;
 }
 .empresas__logos {
   display: flex;
@@ -440,13 +452,13 @@ main {
 }
 
 .empresas h3 {
-  color: #94c23d;
+  color: #cfcccc;
   font-size: 21px;
   text-align: center;
 }
 
 .empresas img {
-  width: 130px;
+  width: 100px;
   margin: 0px 15px;
 }
 .facts_title {
@@ -496,8 +508,8 @@ main {
 
 .counter {
   display: block;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 2.2rem;
+  font-weight: 900;
   color: white;
   line-height: 28px;
 }
@@ -646,7 +658,6 @@ main {
   padding: 5px;
   color: #28367b;
   font-size: 18px;
-  text-transform: lowercase;
 }
 
 .brochure {
@@ -704,13 +715,17 @@ main {
 }
 .opportunities__text {
   margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 39%;
 }
 .opportunities__text h1 {
   font-size: 5rem;
   color: #95c23d;
 }
 .opportunities__text h2 {
-  color: #28367b;
+  color: white;
   font-size: 2.8rem;
 }
 .opportunities__legend {
@@ -972,7 +987,7 @@ main {
 .contactx {
   color: #28367b;
   background-color: #1d71b8;
-  width: 88%;
+  width: 95%;
   margin: 10px 0px;
   border-radius: 100px 0px 0px 100px;
 }
@@ -998,12 +1013,12 @@ main {
   padding: 10px;
 }
 .contact__redes--icon i {
-  color: white;
+  color: #28367b;
   font-size: 2.5rem;
   margin: 0px 20px;
 }
 .contact__redes--icon i:hover {
-  color: #94c23d;
+  color: white;
 }
 .formu-text {
   background-color: #28367b;
@@ -1021,6 +1036,30 @@ main {
 }
 
 /*formulario*/
+.nombre-oculto {
+  display: none;
+  color: red;
+}
+.mail-oculto {
+  display: none;
+  color: red;
+}
+.mensaje-oculto {
+  display: none;
+  color: red;
+}
+form {
+  display: flex;
+}
+.form__container--div {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  text-align: center;
+}
 
 .text__contact--container {
   display: flex;
@@ -1031,19 +1070,12 @@ main {
   align-items: center;
 }
 .form__container {
-  display: flex;
-  align-items: center;
   margin: 20px 20px;
   padding: 15px;
   border-radius: 15px;
   background-color: #dadada;
 }
-.form__container--div {
-  margin: 0px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 label {
   font-size: 1.3rem;
   color: #28367b;
@@ -1052,16 +1084,16 @@ input {
   border-radius: 10px;
   border: 1px solid #28367b;
 }
-.zcwf_button {
+.send_button {
   background-color: #94c23d;
   color: #28367b;
   padding: 5px;
-  margin: 0px 5px;
+  margin: 6px;
   transition: ease-in-out 0.5s;
   border-radius: 10px;
   border: none;
 }
-.zcwf_button:hover {
+.send_button:hover {
   background-color: #1d71b8;
   opacity: 0.9;
   color: white;
@@ -1110,7 +1142,7 @@ textarea {
   color: #94c23d;
 }
 /*media queries*/
-@media only screen and (min-width: 360px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 780px) {
   /* estilos generales*/
   footer {
     flex-direction: column;
@@ -1248,10 +1280,16 @@ textarea {
   }
   .empresas__logos img {
     margin: 10px;
-    width: 90px;
+    width: 8%;
+  }
+  .empresas-confian h2 {
+    margin-left: 0px;
   }
   .facts_title span {
     font-size: 2rem;
+  }
+  .facts_title h3 {
+    text-align: center;
   }
   .counter-box {
     padding: 10px;
@@ -1286,11 +1324,14 @@ textarea {
   .service__header {
     margin: 0px;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
   }
   .service__header img {
-    width: 50px;
-    margin-right: 30px;
+    width: 30px;
+    margin-right: 0px;
+    margin-left: 10px;
   }
   .legend img {
     display: none;
@@ -1299,19 +1340,25 @@ textarea {
     margin-left: 35px;
   }
   .service__text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .service__text h4 {
-    font-size: 2rem;
-    margin-left: 5px;
+    font-size: 1.6rem;
+    margin-left: 0px;
+    text-align: center;
   }
   .service__text h2 {
     font-size: 2rem;
     margin: 0px;
+    text-align: center;
   }
   .service__card--container {
     flex-direction: column;
     align-items: center;
+  }
+  .service__card--container img {
+    width: 100%;
   }
   .card {
     max-width: 150px;
@@ -1333,19 +1380,26 @@ textarea {
     margin: 0px;
     align-items: center;
   }
+  .first h3 {
+    font-size: 1.2rem;
+  }
   .first span {
     padding: 30px;
   }
   .second {
     align-items: center;
   }
+  .second h3 {
+    font-size: 1.2rem;
+  }
   .second span {
     padding: 30px;
   }
   .brochure {
-    border-radius: 40px;
+    border-radius: 30px;
     margin-left: 0px;
     margin-bottom: 40px;
+    padding: 15px;
   }
   .brochure span {
     font-size: 2rem;
@@ -1355,7 +1409,11 @@ textarea {
   }
   .brochure p {
     font-size: 1.2rem;
-    margin-left: 48px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .service__img-container img {
+    display: none;
   }
   .btn-ss {
     margin-left: 15px;
@@ -1433,6 +1491,9 @@ textarea {
   .contact__form {
     flex-direction: column;
   }
+  form {
+    flex-direction: column;
+  }
   .formu-text {
     margin-top: 30px;
   }
@@ -1441,7 +1502,7 @@ textarea {
     width: 80%;
   }
   textarea {
-    margin-left: 35px;
+    margin-left: 0px;
   }
   .contactx span {
     font-size: 1.6rem;

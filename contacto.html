@@ -84,7 +84,9 @@
       </section>
       <section class="comunity__containter"></section>
       <section class="contact__form">
-        <div class="opportunities__legend--text formu-text">
+        <div class="opportunities__legend--text formu-text"  data-aos="fade-right"
+        data-aos-duration="2000"
+        class="service__title-container">
           <h2>#Escribinos</h2>
           <h3>
             en el formu el nombre de tu empresa y tu consulta te contactamos a
@@ -92,31 +94,50 @@
           </h3>
         </div>
         <div class="form__container">
-          <div class="form__container--div">
-            <div class='zcwf_title' style='max-width: 600px;color: black; font-family:Tahoma;'></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='Company'>Empresa</label></div><div class='zcwf_col_fld'><input type='text' id='Company' name='Company' maxlength='200'></input><div class='zcwf_col_help'></div></div></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='First_Name'>Nombre</label></div><div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'></input><div class='zcwf_col_help'></div></div></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='Last_Name'>Apellidos</label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input><div class='zcwf_col_help'></div></div></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='Email'>Correo electrónico</label></div><div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
-            
-          </div>
-          <div class="form__container--div">
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='City'>Ciudad</label></div><div class='zcwf_col_fld'><input type='text' id='City' name='City' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='State'>Provincia</label></div><div class='zcwf_col_fld'><input type='text' id='State' name='State' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='Country'>País</label></div><div class='zcwf_col_fld'><input type='text' id='Country' name='Country' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
-          </div>
-          <div class="form__container--div">
-            <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Tahoma;'><label for='Description'>¿En qué podemos ayudarte?</label></div><div class='zcwf_col_fld'><textarea id='Description' name='Description'></textarea>
-              <div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld '><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Enviar' title='Enviar'><input type='reset' class='zcwf_button' name='reset' value='Restablecer' title='Restablecer'></div></div>
-          </div>
+          <form name="form"  action="contacto.php" method="POST" onSubmit="return valida();">
+            <div class="form__container--div">
+              <label for="empresa">Empresa</label>
+              <input type='text' id='empresa' name='empresa' maxlength='200'></input>
+              <label for="first_name">Nombre</label>
+              <label class="nombre-oculto">"Debe ingresar un nombre</label>
+              <input type='text' id='nombre' name='nombre' maxlength='40'></input>
+              <label for="first_name">Apellido</label>
+              <input type='text' id='apellido' name='apellido' maxlength='40'></input>
+              <label class="mail-oculto">"Debe ingresar un email</label>
+              <label for="email">Correo electrónico</label>
+              <input type='text' ftype='email' id='email' name='email' maxlength='100'></input>  
+            </div>
+            <div class="form__container--div">
+              <label for="telefono">Teléfono</label>
+              <input type='text' id='telefono' name='telefono' maxlength='100'></input>
+              <label for="ciudad">Ciudad</label>
+              <input type='text' id='ciudad' name='ciudad' maxlength='100'></input>
+              <label for="provincia">Provincia</label>
+              <input type='text' id='provincia' name='provincia' maxlength='100'></input>
+              <label for="pais">País</label>
+              <input type='text' id='pais' name='pais' maxlength='100'></input>  
+            </div>
+            <div class="form__container--div">
+              <label class="mensaje-oculto">"Debe ingresar un mensaje</label>
+              <label for='mensaje'>¿En qué podemos ayudarte?</label>
+              <textarea id='mensaje' name='mensaje'></textarea>
+              <div class="button__container">
+                <input type='submit' id='formsubmit' class='formsubmit send_button' value='Enviar' title='Enviar'>
+                <input type='reset' class='send_button' name='reset' value='Restablecer' title='Restablecer'>
+              </div>
+            </div>
+          </form>
         </div>
       </section>
       <section class="text__contact--container">
-        <div class="contactx">
+        <div class="contactx" data-aos="fade-left"
+        data-aos-duration="2000"
+        class="service__title-container">
           <h2>También nos encontras en nuestra  <span> #Comunidad Rhatios</span> </h2>
           <div class="contact__redes--icon">
             <i class="bi bi-linkedin"></i>
             <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
             <i class="bi bi-whatsapp"></i>
           </div>
         </div>
@@ -153,7 +174,7 @@
         <ul>
           <li><i class="bi bi-linkedin"></i></li>
           <li><i class="bi bi-facebook"></i></li>
-          <li><i class="bi bi-youtube"></i></li>
+          <li><i class="bi bi-instagram"></i></li>
           <li><i class="bi bi-whatsapp"></i></li>
         </ul>
       </div>
@@ -173,6 +194,7 @@
       AOS.init();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/app.js"></script>
     <script src="./js/form.js"></script>
   </body>
