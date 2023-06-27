@@ -1050,6 +1050,10 @@ main {
 }
 
 /*formulario*/
+.form-message {
+  padding: 30px;
+  margin: 30px 0px;
+}
 #form-error {
   display: none;
   color: red;
