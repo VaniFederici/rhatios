@@ -20,7 +20,7 @@ if (isset($_POST['email']) and $_POST['email']!=""){
 	$correo=$email;
 	//$destinatario= "";
 	
-	$destinatario= "comercial@rhatios.com.ar";
+	$destinatario= "vanifederici@gmail.com";
 	$asunto = "Consulta desde www.rhatios.com.ar"; 
 	$cuerpo_rec = '<br />Consulta enviada desde www.rhatios.com.ar:<br /><br />
 	

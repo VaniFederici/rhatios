@@ -100,11 +100,10 @@
               <label for="empresa">Empresa</label>
               <input type='text' id='empresa' name='empresa' maxlength='200'></input>
               <label for="first_name">Nombre</label>
-              <label class="nombre-oculto">"Debe ingresar un nombre</label>
+              
               <input type='text' id='nombre' name='nombre' maxlength='40'></input>
               <label for="first_name">Apellido</label>
               <input type='text' id='apellido' name='apellido' maxlength='40'></input>
-              <label class="mail-oculto">"Debe ingresar un email</label>
               <label for="email">Correo electrónico</label>
               <input type='text' ftype='email' id='email' name='email' maxlength='100'></input>  
             </div>
@@ -126,6 +125,7 @@
                 <input type='submit' id='formsubmit' class='formsubmit send_button' value='Enviar' title='Enviar'>
                 <input type='reset' class='send_button' name='reset' value='Restablecer' title='Restablecer'>
               </div>
+              <label id="form-error"></label>
             </div>
           </form>
         </div>

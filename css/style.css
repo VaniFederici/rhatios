@@ -888,6 +888,12 @@ main {
   display: flex;
   align-items: center;
 }
+.shellda {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
 .somos__slogan span {
   color: #94c23d;
   font-size: 3rem;
@@ -1044,17 +1050,10 @@ main {
 }
 
 /*formulario*/
-.nombre-oculto {
+#form-error {
   display: none;
   color: red;
-}
-.mail-oculto {
-  display: none;
-  color: red;
-}
-.mensaje-oculto {
-  display: none;
-  color: red;
+  font-size: 1rem;
 }
 form {
   display: flex;
@@ -1172,7 +1171,7 @@ textarea {
 
   /*index*/
   .carousel-caption h5 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .carousel-caption img {
     width: 0px;
@@ -1195,11 +1194,12 @@ textarea {
     padding: 0px 30px;
   }
   .institucional__text span {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .institucional__text p {
     font-size: 1rem;
     text-align: center;
+    padding: 0px 15px;
   }
   .institucional__image img {
     width: 100%;
@@ -1229,6 +1229,7 @@ textarea {
   .proposito__text p {
     margin: 0px;
     text-align: center;
+    font-size: 1rem;
   }
   .proposito__logo img {
     margin: 10px;
@@ -1389,7 +1390,7 @@ textarea {
   }
 
   .service__first-content span {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .first {
     margin: 0px;
@@ -1399,7 +1400,8 @@ textarea {
     font-size: 1.2rem;
   }
   .first span {
-    padding: 30px;
+    padding: 20px;
+    margin: 0px;
   }
   .second {
     align-items: center;
@@ -1408,7 +1410,8 @@ textarea {
     font-size: 1.2rem;
   }
   .second span {
-    padding: 30px;
+    padding: 20px;
+    margin: 0px;
   }
   .brochure {
     border-radius: 30px;
@@ -1562,8 +1565,9 @@ textarea {
     padding: 5px;
     border-radius: 100px;
   }
-  .shellda {
-    font-size: 13px !important;
+
+  .shellda p {
+    font-size: 13px;
   }
 
   .somos__slogan img {
@@ -1574,9 +1578,7 @@ textarea {
     padding: 0px;
     flex-direction: column-reverse;
   }
-  .somos__slogan p {
-    font-size: 1.3rem;
-  }
+
   .somos__legend span {
     font-size: 2.5rem;
   }
@@ -1592,7 +1594,7 @@ textarea {
   }
   .somos__slogan p {
     padding: 5px;
-    font-size: 1rem;
+    font-size: 13px;
   }
   .somos__slogan {
     justify-content: center;
