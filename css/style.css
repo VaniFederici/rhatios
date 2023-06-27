@@ -1152,6 +1152,9 @@ textarea {
 /*media queries*/
 @media only screen and (min-width: 360px) and (max-width: 780px) {
   /* estilos generales*/
+  main {
+    margin: 8px;
+  }
   footer {
     flex-direction: column;
   }
@@ -1200,6 +1203,7 @@ textarea {
   }
   .institucional__image img {
     width: 100%;
+    margin: 0px;
   }
   .proposito {
     justify-content: center;
@@ -1293,6 +1297,9 @@ textarea {
   .empresas-confian h2 {
     margin-left: 0px;
   }
+  .empresas-confian span {
+    font-size: 2rem;
+  }
   .facts_title span {
     font-size: 2rem;
   }
@@ -1345,7 +1352,7 @@ textarea {
     display: none;
   }
   .service__text {
-    margin-left: 35px;
+    margin: 0px;
   }
   .service__text h1 {
     font-size: 2.5rem;
@@ -1555,6 +1562,14 @@ textarea {
     padding: 5px;
     border-radius: 100px;
   }
+  .shellda {
+    font-size: 13px !important;
+  }
+
+  .somos__slogan img {
+    width: 100%;
+  }
+
   .somos__slogan {
     padding: 0px;
     flex-direction: column-reverse;
@@ -1570,10 +1585,10 @@ textarea {
   }
 
   .somos__legend img {
-    width: 200px;
+    width: 168px;
   }
   .somos__slogan span {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .somos__slogan p {
     padding: 5px;
@@ -1601,6 +1616,9 @@ textarea {
   .somos__equipo {
     flex-direction: column;
     margin: 15px;
+  }
+  .value__container h2 {
+    text-align: center;
   }
   .value__container--img img {
     margin: 5px;
