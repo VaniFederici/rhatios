@@ -508,7 +508,7 @@ main {
 
 .counter {
   display: block;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: 900;
   color: white;
   line-height: 28px;
@@ -798,6 +798,12 @@ main {
   margin-top: 10px;
 }
 /* somos rhatios*/
+.director {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  color: #94c23d;
+  margin-bottom: 12px !important;
+}
 .somos__container {
   display: flex;
   justify-content: center;
@@ -863,6 +869,7 @@ main {
   background-size: cover;
   background-position: center center;
 }
+
 .equipoa {
   background-image: url(../images/equipo-1.png);
 }
@@ -893,9 +900,10 @@ main {
 }
 .somos__slogan--img p {
   padding: 0px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0px;
   line-height: 18px;
+  font-weight: 500;
 }
 .somos__slogan--img span {
   margin: 0px 10px;
