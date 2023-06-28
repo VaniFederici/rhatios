@@ -1098,7 +1098,7 @@ input {
 .send_button {
   background-color: #94c23d;
   color: #28367b;
-  padding: 5px;
+  padding: 5px 8  px;
   margin: 6px;
   transition: ease-in-out 0.5s;
   border-radius: 10px;
