@@ -676,6 +676,9 @@ main {
   display: flex;
   align-items: center;
 }
+.button__brochure {
+  text-decoration: none;
+}
 
 .brochure p {
   color: white;
@@ -687,7 +690,21 @@ main {
   font-size: 3rem;
 }
 .btn-ss {
-  margin-left: 45px;
+  margin-left: 25px;
+  box-shadow: 5px -3px 191px 13px #28367b;
+  animation: pulse 2s infinite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+}
+.btn-ss i {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.service__img-container img {
+  margin-right: 15px;
 }
 
 .btn-ss:hover {
@@ -796,6 +813,7 @@ main {
 .encontra {
   margin-left: 5px;
   margin-top: 10px;
+  font-size: 1.5rem;
 }
 /* somos rhatios*/
 .director {
@@ -1098,7 +1116,7 @@ input {
 .send_button {
   background-color: #94c23d;
   color: #28367b;
-  padding: 5px 8  px;
+  padding: 5px 8 px;
   margin: 6px;
   transition: ease-in-out 0.5s;
   border-radius: 10px;
@@ -1438,8 +1456,9 @@ textarea {
     display: none;
   }
   .btn-ss {
-    margin-left: 15px;
+    width: 140px;
   }
+
   /*oportunidades laborales*/
   .opportunities__main {
     align-items: end;
