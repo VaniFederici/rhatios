@@ -802,6 +802,9 @@ main {
   align-items: center;
   text-align: center;
 }
+.discov a {
+  text-decoration: none;
+}
 .discov-1 {
   color: #95c23d;
   font-size: 5rem;
